@@ -853,6 +853,24 @@
     }
   }
 }
+@media screen and (max-width: 375px) {
+  .hero-link .btn-hero{
+    padding: 14px 28px 14px 19px;
+  }
+  .hero-link .btn-primary{
+    padding: 24px 25px;
+  }
+  .why .link-section .btn-primary{
+    padding: 23px 8px;
+    width: 290px;
+  }
+  .hero-text:after{
+    right: 0;
+  }
+  .price{
+    overflow: hidden;
+  }
+}
 @media screen and (max-width: 500px) {
   .result-reviews{
     &__title{
