@@ -1,0 +1,457 @@
+.section-parallax{
+  img{
+    transition: all ease 400ms;
+  }
+}
+.hero{
+  .container{
+    position: relative;
+  }
+
+  .section-parallax{
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    width: 100%;
+    height: calc(100% + 110px);
+    z-index: 4;
+    img{
+      position: absolute;
+      &:nth-of-type(1){
+        top: 173px;
+        left: -124px;
+      }
+      &:nth-of-type(2){
+        top: -68px;
+        right: -92px;
+      }
+      &:nth-of-type(3){
+        right: 143px;
+        top: 190px;
+      }
+      &:nth-of-type(4){
+        bottom: 290px;
+        left: auto;
+        right: 690px;
+      }
+      &:nth-of-type(5){
+        bottom: 0;
+        left: 176px;
+      }
+      &:nth-of-type(6){
+        bottom: 108px;
+        right: -55px;
+      }
+    }
+  }
+}
+.about{
+  .container{
+    position: relative;
+  }
+  .section-parallax{
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 4;
+    img{
+      position: absolute;
+      &:nth-of-type(1){
+        top: 198px;
+        right: -207px;
+      }
+      &:nth-of-type(2){
+        top: 615px;
+        left: 62px;
+        transform: rotate(60deg);
+      }
+      &:nth-of-type(3){
+        right: 158px;
+        top: 680px;
+      }
+    }
+  }
+}
+.why{
+  .container{
+    position: relative;
+  }
+  .section-parallax{
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 4;
+    img{
+      position: absolute;
+      &:nth-of-type(1){
+        top: 605px;
+        left: -83px;
+      }
+    }
+  }
+}
+.save-more{
+  z-index: 4;
+}
+.about-team{
+  z-index: 4;
+  .container{
+    position: relative;
+  }
+  .section-parallax{
+    position: absolute;
+    top: -40px;
+    width: 100%;
+    height: calc(100% + 220px);
+    z-index: 4;
+    img{
+      position: absolute;
+      &:nth-of-type(1){
+        top: 138px;
+        left: 153px;
+      }
+      &:nth-of-type(2){
+        bottom: 82px;
+        left: -115px;
+      }
+      &:nth-of-type(3){
+        right: 173px;
+        top: 8px;
+        transform: rotate(60deg);
+      }
+      &:nth-of-type(4){
+        bottom: 45px;
+        right: 111px;
+      }
+    }
+  }
+}
+.team{
+  z-index: 3;
+  .container{
+    position: relative;
+  }
+  .section-parallax{
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 4;
+    img{
+      position: absolute;
+      &:nth-of-type(1){
+        bottom: 369px;
+        right: -44px;
+      }
+    }
+  }
+}
+.price{
+  z-index: 3;
+  .container{
+    position: relative;
+  }
+  .section-parallax{
+    position: absolute;
+    top: -40px;
+    width: 100%;
+    height: calc(100% + 140px);
+    z-index: 4;
+    img{
+      position: absolute;
+      &:nth-of-type(1){
+        top: -100px;
+        left: 222px;
+      }
+      &:nth-of-type(2){
+        top: 610px;
+        left: 102px;
+      }
+      &:nth-of-type(3){
+        bottom: 820px;
+        right: 44px;
+      }
+      &:nth-of-type(4){
+        bottom: -112px;
+        left: 257px;
+      }
+    }
+  }
+}
+.result{
+  .section-parallax{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    img{
+      position: absolute;
+      &:nth-of-type(1){
+        top: -92px;
+        left: 115px;
+      }
+      &:nth-of-type(2){
+        bottom: 202px;
+        right: 120px;
+      }
+    }
+  }
+}
+.consultation{
+  .section-parallax{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    img{
+      position: absolute;
+      &:nth-of-type(1){
+        top: 325px;
+        left: -90px;
+      }
+      &:nth-of-type(2){
+        bottom: -87px;
+        left: 687px;
+      }
+    }
+  }
+}
+.contact{
+  .container{
+    position: relative;
+  }
+  .section-parallax{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    img{
+      position: absolute;
+      &:nth-of-type(1){
+        top: 500px;
+        left: 100px;
+      }
+      &:nth-of-type(2){
+        bottom: 260px;
+        right: 250px;
+      }
+    }
+  }
+}
+@media screen and (max-width: 1440px){
+  .hero .section-parallax img:nth-of-type(4) {
+    bottom: 230px;
+    right: 490px;
+  }
+  .price .section-parallax img:nth-of-type(2){
+    left: 15px;
+  }
+  .consultation .section-parallax img:nth-of-type(1) {
+    left: -160px;
+  }
+  .about .section-parallax img:nth-of-type(2) {
+    left: 20px;
+  }
+  .contact .section-parallax img:nth-of-type(2){
+    right: 55px;
+  }
+  .contact .section-parallax img:nth-of-type(1){
+    left: 15px;
+  }
+}
+
+@media screen and (max-width: 1300px){
+  .work{
+    overflow: hidden;
+  }
+
+  .hero{
+    .section-parallax {
+      img{
+        &:nth-of-type(1){
+          left: auto;
+          right: -50px;
+          width: 121px;
+        }
+        &:nth-of-type(3){
+          top: 410px;
+          right: 130px;
+          width: 36px;
+        }
+        &:nth-of-type(5){
+          width: 160px;
+        }
+        &:nth-of-type(2),&:nth-of-type(4),&:nth-of-type(6) {
+          display: none;
+        }
+      }
+    }
+  }
+  .about{
+    .section-parallax{
+      img{
+        &:nth-of-type(3){
+          right: 0;
+          top: 50%;
+          width: 215px;
+        }
+        &:nth-of-type(2){
+          width: 26px;
+          height: 26px;
+          bottom: 200px;
+          top: auto;
+          left: auto;
+          right: 15px;
+        }
+        &:nth-of-type(1){
+          width: 165px;
+          left: 0;
+          right: auto;
+          bottom: -100px;
+          top: auto;
+        }
+      }
+    }
+  }
+  .why{
+    .section-parallax{
+      img{
+        &:nth-of-type(1){
+          width: 190px;
+          left: 0;
+          right: 0;
+          margin: 0 auto;
+        }
+      }
+    }
+  }
+  .about-team{
+    .section-parallax{
+      img{
+        &:nth-of-type(1){
+          width: 23px;
+        }
+        &:nth-of-type(2){
+          display: none;
+        }
+        &:nth-of-type(4){
+          width: 169px;
+          right: 0;
+        }
+        &:nth-of-type(3){
+          width: 38px;
+        }
+      }
+    }
+  }
+  .team .section-parallax img:nth-of-type(1) {
+    bottom: -100px;
+    right: auto;
+    left: -40px;
+    width: 116px;
+  }
+  .price .section-parallax img:nth-of-type(1){
+    width: 141px;
+    top: 0;
+  }
+  .price .section-parallax img:nth-of-type(4){
+    width: 114px;
+    left: 0;
+    bottom: 0;
+  }
+  .result .section-parallax img:nth-of-type(1){
+    width: 138px;
+    left: -60px;
+    top: 20px;
+  }
+  .result .section-parallax img:nth-of-type(2) {
+    bottom: -210px;
+    right: 80px;
+    width: 32px;
+  }
+  .consultation .section-parallax img:nth-of-type(1) {
+    left: 0;
+    width: 133px;
+    right: 0;
+    top: 0;
+    margin: 0 auto;
+  }
+  .consultation{
+    .container  {
+      z-index: 4;
+    }
+    .section-parallax  {
+      z-index: 2;
+    }
+  }
+  .consultation .section-parallax img:nth-of-type(2) {
+    width: 145px;
+  }
+  .contact .section-parallax img:nth-of-type(1) {
+    left: auto;
+    width: 29px;
+    right: 30px;
+  }
+  .contact .section-parallax img:nth-of-type(2) {
+    width: 29px;
+  }
+  .contact .section-parallax img:nth-of-type(2) {
+    width: 121px;
+  }
+}
+
+@media screen and (max-width: 576px){
+  .hero .section-parallax img:nth-of-type(3) {
+    top: 760px;
+  }
+  .hero .section-parallax img:nth-of-type(5){
+    left: 15px;
+  }
+}
+@media screen and (max-width: 480px){
+  .about .section-parallax img:nth-of-type(3) {
+    top: 80%;
+  }
+  .about .section-parallax img:nth-of-type(2){
+    bottom: 0;
+  }
+  .about-team .section-parallax img:nth-of-type(1){
+    top: 538px;
+  }
+  .about-team .section-parallax img:nth-of-type(3){
+    top: 400px;
+  }
+  .about-team .section-parallax img:nth-of-type(4){
+    bottom: -400px;
+  }
+  .team .section-parallax img:nth-of-type(1) {
+    bottom: -400px;
+  }
+  .price .section-parallax img:nth-of-type(1) {
+    top: 300px;
+  }
+  .price .section-parallax img:nth-of-type(2) {
+    width: 32px;
+    top: 1610px;
+  }
+  .consultation .section-parallax img:nth-of-type(1) {
+    top: 660px;
+  }
+  .team .team-slider-prev{
+    left: -5px;
+  }
+  .team .team-slider-next {
+    right: -5px;
+  }
+  .result .result-slider-prev{
+    left: -15px;
+  }
+  .result .result-slider-next {
+    right: 17px;
+  }
+}
